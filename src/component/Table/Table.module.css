@@ -1,0 +1,47 @@
+
+.li{
+    list-style-type: none;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0 auto;
+    width: 800px;
+}
+
+label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.checkbox{
+  width: 30px;
+  height: 30px;
+}
+
+.checkmMultiple {
+  display: inline-block;
+  height: 460px;
+  overflow-y: scroll;
+  border: 1px solid gray;
+}
+.checkmMultiple input {
+  display: none;
+}
+.checkmMultiple label {
+  display: block;
+}
+.checkmMultiple span {
+  display: inline-block;
+  width: 100%;
+}
+.checkmMultiple input:checked ~ span {
+  background: #0d6efd;
+  color: white;
+}
+
+
